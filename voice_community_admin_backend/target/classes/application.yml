@@ -1,0 +1,31 @@
+# 后台管理系统配置
+spring:
+  datasource:
+    url: jdbc:sqlite:../voice_community_backend/data/voice_community.db
+    driver-class-name: org.sqlite.JDBC
+    hikari:
+      connection-timeout: 30000
+      maximum-pool-size: 10
+      minimum-idle: 1
+  servlet:
+    multipart:
+      max-file-size: 20MB
+
+server:
+  port: 8082
+
+logging:
+  level:
+    root: INFO
+    com.vc.admin: DEBUG
+  path: ./logs
+
+mybatis:
+  config-location: classpath:mybatis-config.xml
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.vc.admin.entity
+
+# CORS配置
+cors:
+  allowed-origins: http://localhost:3000,http://localhost:5174
+

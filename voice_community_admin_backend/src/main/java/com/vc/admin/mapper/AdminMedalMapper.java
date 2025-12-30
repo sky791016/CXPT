@@ -14,7 +14,7 @@ public interface AdminMedalMapper {
     List<Medal> selectAll(@Param("keyword") String keyword);
     
     @Select("SELECT * FROM medal WHERE id = #{id}")
-    Medal selectById(Long id);
+    Medal selectById(Integer id);
     
     @Insert("INSERT INTO medal (code, name, description, icon_url, grant_type, min_score, min_created, min_commented, min_voted, require_leader, enabled, sort_no, create_time, update_time) " +
             "VALUES (#{code}, #{name}, #{description}, #{iconUrl}, #{grantType}, #{minScore}, #{minCreated}, #{minCommented}, #{minVoted}, #{requireLeader}, #{enabled}, #{sortNo}, #{createTime}, #{updateTime})")
@@ -28,7 +28,7 @@ public interface AdminMedalMapper {
     void update(Medal medal);
     
     @Delete("DELETE FROM medal WHERE id=#{id}")
-    void delete(Long id);
+    void delete(Integer id);
     
     @Select("SELECT COUNT(*) FROM medal")
     Long countAll();

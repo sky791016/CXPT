@@ -22,7 +22,10 @@ CXPT/
 **已实现功能**:
 - ✅ 用户管理（增删改查、统计）
 - ✅ 心声管理（增删改查、统计）
-- ✅ 数据统计API
+- ✅ 评论管理（增删改查、统计）
+- ✅ 标签管理（增删改查、统计）
+- ✅ 勋章管理（增删改查、统计）
+- ✅ 数据统计API（总览统计包含所有实体数据）
 - ✅ CORS配置
 - ✅ 分页支持
 
@@ -31,23 +34,55 @@ CXPT/
 - `config/CorsConfig.java` - CORS配置
 - `controller/AdminUserController.java` - 用户管理API
 - `controller/AdminVoiceController.java` - 心声管理API
+- `controller/AdminCommentController.java` - 评论管理API
+- `controller/AdminTagController.java` - 标签管理API
+- `controller/AdminMedalController.java` - 勋章管理API
 - `controller/AdminStatisticsController.java` - 统计API
 - `service/` - 服务层
 - `mapper/` - 数据访问层
 
+**API端点**:
+
+- **用户管理**: `/admin/api/user/*`
+- **心声管理**: `/admin/api/voice/*`
+- **评论管理**: `/admin/api/comment/*`
+- **标签管理**: `/admin/api/tag/*`
+- **勋章管理**: `/admin/api/medal/*`
+- **统计**: `/admin/api/statistics/*`
+
+每个实体都支持：
+- `GET /list` - 列表（分页）
+- `GET /{id}` - 详情
+- `POST /create` - 创建
+- `PUT /update/{id}` - 更新
+- `DELETE /delete/{id}` - 删除
+- `GET /statistics` - 统计
+
 **如何扩展其他实体管理**:
 
-1. 复制实体类到 `pojo/entity/`（已从主后端复制）
+1. 确保实体类在 `pojo/entity/`（已从主后端复制）
 
 2. 创建Mapper接口（参考 `AdminUserMapper.java`）:
 ```java
 @Mapper
 public interface AdminXxxMapper {
-    List<Xxx> selectAll(String keyword);
+    @Select("SELECT * FROM xxx WHERE ...")
+    List<Xxx> selectAll(@Param("keyword") String keyword);
+    
+    @Select("SELECT * FROM xxx WHERE id = #{id}")
     Xxx selectById(Long id);
+    
+    @Insert("INSERT INTO xxx ...")
+    @Options(useGeneratedKeys = true, keyProperty = "id")
     void insert(Xxx xxx);
+    
+    @Update("UPDATE xxx SET ... WHERE id=#{id}")
     void update(Xxx xxx);
+    
+    @Delete("DELETE FROM xxx WHERE id=#{id}")
     void delete(Long id);
+    
+    @Select("SELECT COUNT(*) FROM xxx")
     Long countAll();
 }
 ```
@@ -55,6 +90,8 @@ public interface AdminXxxMapper {
 3. 创建Service接口和实现（参考 `AdminUserService` 和 `AdminUserServiceImpl`）
 
 4. 创建Controller（参考 `AdminUserController.java`）
+
+5. 在 `AdminStatisticsServiceImpl` 中添加统计信息
 
 **启动方式**:
 ```bash
@@ -75,13 +112,11 @@ cd deploy
 - ✅ 侧边栏导航
 - ✅ 响应式布局
 
-**核心文件**:
-- `src/App.tsx` - 主应用
-- `src/pages/UserManagement.tsx` - 用户管理页面
-- `src/pages/VoiceManagement.tsx` - 心声管理页面
-- `src/pages/Statistics.tsx` - 统计页面
-- `src/api/` - API调用
-- `src/types/` - TypeScript类型定义
+**待扩展功能**:
+- 🔄 评论管理页面
+- 🔄 标签管理页面
+- 🔄 勋章管理页面
+- 🔄 其他实体管理页面
 
 **如何扩展其他实体管理页面**:
 
@@ -134,6 +169,7 @@ cd deploy
 
 ### 后台管理后端（端口8082）
 
+**用户管理**:
 - `GET /admin/api/user/list` - 用户列表
 - `GET /admin/api/user/{id}` - 用户详情
 - `POST /admin/api/user/create` - 创建用户
@@ -141,6 +177,7 @@ cd deploy
 - `DELETE /admin/api/user/delete/{id}` - 删除用户
 - `GET /admin/api/user/statistics` - 用户统计
 
+**心声管理**:
 - `GET /admin/api/voice/list` - 心声列表
 - `GET /admin/api/voice/{id}` - 心声详情
 - `POST /admin/api/voice/create` - 创建心声
@@ -148,7 +185,33 @@ cd deploy
 - `DELETE /admin/api/voice/delete/{id}` - 删除心声
 - `GET /admin/api/voice/statistics` - 心声统计
 
-- `GET /admin/api/statistics/overview` - 总览统计
+**评论管理**:
+- `GET /admin/api/comment/list` - 评论列表
+- `GET /admin/api/comment/{id}` - 评论详情
+- `POST /admin/api/comment/create` - 创建评论
+- `PUT /admin/api/comment/update/{id}` - 更新评论
+- `DELETE /admin/api/comment/delete/{id}` - 删除评论
+- `GET /admin/api/comment/statistics` - 评论统计
+
+**标签管理**:
+- `GET /admin/api/tag/list` - 标签列表
+- `GET /admin/api/tag/all` - 所有标签（不分页）
+- `GET /admin/api/tag/{id}` - 标签详情
+- `POST /admin/api/tag/create` - 创建标签
+- `PUT /admin/api/tag/update/{id}` - 更新标签
+- `DELETE /admin/api/tag/delete/{id}` - 删除标签
+- `GET /admin/api/tag/statistics` - 标签统计
+
+**勋章管理**:
+- `GET /admin/api/medal/list` - 勋章列表
+- `GET /admin/api/medal/{id}` - 勋章详情
+- `POST /admin/api/medal/create` - 创建勋章
+- `PUT /admin/api/medal/update/{id}` - 更新勋章
+- `DELETE /admin/api/medal/delete/{id}` - 删除勋章
+- `GET /admin/api/medal/statistics` - 勋章统计
+
+**统计**:
+- `GET /admin/api/statistics/overview` - 总览统计（包含所有实体数据）
 
 ### 主后端（端口8081）
 
@@ -156,11 +219,12 @@ cd deploy
 
 ## 下一步开发建议
 
-1. **完善后台管理功能**:
-   - 实现评论管理
-   - 实现标签管理
-   - 实现勋章管理
-   - 实现任务板管理
+1. **完善后台管理前端**:
+   - 实现评论管理页面
+   - 实现标签管理页面
+   - 实现勋章管理页面
+   - 实现任务板管理页面
+   - 实现项目管理页面
    - 完善统计功能（趋势图表等）
 
 2. **开发Web门户**:
@@ -175,6 +239,7 @@ cd deploy
    - 添加操作审计
    - 优化UI/UX
    - 添加数据导出功能
+   - 添加批量操作功能
 
 ## 注意事项
 
@@ -182,4 +247,5 @@ cd deploy
 2. 后台管理API使用 `/admin/api` 前缀，与主后端API区分
 3. Web门户使用主后端API（`/api`），无需修改主后端代码
 4. 开发时注意CORS配置，确保前端可以正常访问后端API
-
+5. SQLite使用 `||` 进行字符串连接，而非 `+` 或 `CONCAT`
+6. SQLite的布尔值使用INTEGER类型（0或1）

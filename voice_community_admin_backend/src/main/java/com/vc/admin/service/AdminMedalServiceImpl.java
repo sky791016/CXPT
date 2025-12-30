@@ -22,7 +22,7 @@ public class AdminMedalServiceImpl implements AdminMedalService {
     }
 
     @Override
-    public Medal getById(Long id) {
+    public Medal getById(Integer id) {
         return medalMapper.selectById(id);
     }
 
@@ -37,7 +37,7 @@ public class AdminMedalServiceImpl implements AdminMedalService {
     }
 
     @Override
-    public void delete(Long id) {
+    public void delete(Integer id) {
         medalMapper.delete(id);
     }
 

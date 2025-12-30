@@ -8,10 +8,10 @@ import java.util.Map;
 
 public interface AdminMedalService {
     List<Medal> list(PageRequest pageRequest);
-    Medal getById(Long id);
+    Medal getById(Integer id);
     void create(Medal medal);
     void update(Medal medal);
-    void delete(Long id);
+    void delete(Integer id);
     Map<String, Object> getStatistics();
 }
 

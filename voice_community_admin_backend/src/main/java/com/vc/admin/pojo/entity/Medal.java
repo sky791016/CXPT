@@ -11,7 +11,7 @@ import java.sql.Timestamp;
 @Getter
 @Data
 public class Medal implements Serializable {
-    private Long id;
+    private Integer id;
     private String code;
     private String name;
     private String description;

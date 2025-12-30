@@ -37,7 +37,7 @@ public class AdminMedalController {
     }
 
     @GetMapping("/{id}")
-    public ApiResponse<Medal> getById(@PathVariable Long id) {
+    public ApiResponse<Medal> getById(@PathVariable Integer id) {
         Medal medal = medalService.getById(id);
         return ApiResponse.success(medal);
     }
@@ -51,7 +51,7 @@ public class AdminMedalController {
     }
 
     @PutMapping("/update/{id}")
-    public ApiResponse<String> update(@PathVariable Long id, @RequestBody Medal medal) {
+    public ApiResponse<String> update(@PathVariable Integer id, @RequestBody Medal medal) {
         medal.setId(id);
         medal.setUpdateTime(Timestamp.valueOf(LocalDateTime.now()));
         medalService.update(medal);
@@ -59,7 +59,7 @@ public class AdminMedalController {
     }
 
     @DeleteMapping("/delete/{id}")
-    public ApiResponse<String> delete(@PathVariable Long id) {
+    public ApiResponse<String> delete(@PathVariable Integer id) {
         medalService.delete(id);
         return ApiResponse.success("删除成功", null);
     }
