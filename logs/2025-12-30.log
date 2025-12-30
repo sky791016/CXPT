@@ -1,0 +1,38 @@
+2025-12-30 13:27:30 [main] INFO  com.vc.VoiceCommunityBackendApplication - Starting VoiceCommunityBackendApplication using Java 21.0.8 with PID 27369 (/Users/skyshi/code/CXPT/voice_community_backend/target/classes started by skyshi in /Users/skyshi/code/CXPT)
+2025-12-30 13:27:30 [main] INFO  com.vc.VoiceCommunityBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-30 13:27:30 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: java.lang.Error: Unresolved compilation problems: 
+	The import com.vc.pojo.entity.Comment cannot be resolved
+	Comment cannot be resolved to a type
+	Comment cannot be resolved to a type
+
+2025-12-30 13:27:30 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-30 13:27:30 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.Error: Unresolved compilation problems: 
+	The import com.vc.pojo.entity.Comment cannot be resolved
+	Comment cannot be resolved to a type
+	Comment cannot be resolved to a type
+
+	at com.vc.mapper.CommentMapper.<clinit>(CommentMapper.java:3)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:534)
+	at java.base/java.lang.Class.forName(Class.java:513)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:216)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:103)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:322)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.processBeanDefinitions(ClassPathMapperScanner.java:290)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:263)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.scan(ClassPathBeanDefinitionScanner.java:255)
+	at org.mybatis.spring.mapper.MapperScannerConfigurer.postProcessBeanDefinitionRegistry(MapperScannerConfigurer.java:406)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:148)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.vc.VoiceCommunityBackendApplication.main(VoiceCommunityBackendApplication.java:14)

@@ -27,6 +27,8 @@ public class Voice implements Serializable {
     private Integer disagreed;
     private String type;
     private String status;
+    // 创意类型（仅用于type='IDEA'的创意）
+    private String ideaType;
     private String images;
     private Boolean isDeleted;
     private Timestamp createTime;

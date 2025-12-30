@@ -1,0 +1,846 @@
+
+> voice_community_fe@0.0.0 dev
+> vite
+
+Re-optimizing dependencies because vite config has changed
+
+  VITE v5.4.11  ready in 2844 ms
+
+  ➜  Local:   http://localhost:2000/
+  ➜  Network: use --host to expose
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+96 │           background: darken(v.$dark-blue, 10%);
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    src/pages/taskboard/my-bids/styles.module.scss 96:23  root stylesheet
+
+DEPRECATION WARNING: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -18.8191881919%)
+color.adjust($color, $lightness: -10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+96 │           background: darken(v.$dark-blue, 10%);
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    src/pages/taskboard/my-bids/styles.module.scss 96:23  root stylesheet
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+2:30:36 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=1&pageSize=4&type=IDEA&sortBy=update_time&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:30:36 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=1&pageSize=10&sortBy=update_time&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:30:36 PM [vite] http proxy error: /voice/getUnreadVoicesByAtUserId?pageNum=1&pageSize=1&atUserId=1&sortBy=voted&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:30:40 PM [vite] http proxy error: /user/getAllUsers
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:30:40 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=0&pageSize=3&type=IDEA&sortBy=commented&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:30:40 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=1&pageSize=3&type=IDEA&sortBy=voted&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:30:40 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=0&pageSize=10&type=IDEA&status=TO_PROJECT&sortBy=update_time&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:30:41 PM [vite] http proxy error: /user/getAllUsers
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:30:41 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=1&pageSize=3&type=GOSSIPING&sortBy=commented&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:30:41 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=1&pageSize=3&type=GOSSIPING&sortBy=voted&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:30:41 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=0&pageSize=20&type=GOSSIPING&sortBy=update_time&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:30:41 PM [vite] http proxy error: /user/getLeaders
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:30:42 PM [vite] http proxy error: /medal/my?userId=1
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:30:42 PM [vite] http proxy error: /medal/list
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:30:43 PM [vite] http proxy error: /taskboard/list?pageNum=1&pageSize=20
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+2:43:07 PM [vite] hmr update /src/pages/account/voted/index.tsx, /src/pages/account/commented/index.tsx, /src/pages/account/created/index.tsx, /src/pages/account/messages/index.tsx, /src/pages/gossiping/ranking-list/index.tsx, /src/pages/plaza/ranking-list/index.tsx, /src/pages/account/my-ideas/index.tsx, /src/pages/account/my-gossiping/index.tsx, /src/pages/gossiping/create-gossiping/index.tsx, /src/pages/plaza/filter-list/index.tsx, /src/pages/gossiping/index.tsx, /src/pages/plaza/index.tsx, /src/pages/plaza/create-idea/index.tsx, /src/pages/taskboard/my-bids/index.tsx, /src/pages/account/my-medals/index.tsx, /src/pages/taskboard/my-projects/index.tsx, /src/pages/taskboard/detail/index.tsx, /src/pages/taskboard/index.tsx, /src/pages/account/my-score/index.tsx, /src/pages/account/index.tsx, /src/pages/home/index.tsx, /src/pages/taskboard/project/index.tsx, /src/pages/medal/index.tsx, /src/pages/account/profile/index.tsx, /src/pages/user/detail/index.tsx, /src/pages/taskboard/achievements/index.tsx, /src/pages/plaza/detail/index.tsx, /src/pages/gossiping/detail/index.tsx, /src/components/ip-tab/index.tsx, /src/components/ip-header/index.tsx, /src/components/ip-hot/index.tsx, /src/components/ip-post/index.tsx, /src/components/ip-list/index.tsx, /src/components/ip-comment/index.tsx
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.adjust instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+96 │           background: darken(v.$dark-blue, 10%);
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    src/pages/taskboard/my-bids/styles.module.scss 96:23  root stylesheet
+
+DEPRECATION WARNING: darken() is deprecated. Suggestions:
+
+color.scale($color, $lightness: -17.8321678322%)
+color.adjust($color, $lightness: -10%)
+
+More info: https://sass-lang.com/d/color-functions
+
+   ╷
+96 │           background: darken(v.$dark-blue, 10%);
+   │                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    src/pages/taskboard/my-bids/styles.module.scss 96:23  root stylesheet
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+2:43:07 PM [vite] hmr invalidate /src/pages/plaza/index.tsx Could not Fast Refresh ("filterOptions" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:43:07 PM [vite] hmr update /src/App.tsx, /src/pages/plaza/filter-list/index.tsx
+2:43:07 PM [vite] hmr invalidate /src/pages/plaza/create-idea/index.tsx Could not Fast Refresh ("tags" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:43:07 PM [vite] hmr update /src/App.tsx, /src/pages/plaza/detail/index.tsx
+2:43:07 PM [vite] hmr invalidate /src/components/ip-list/index.tsx Could not Fast Refresh ("ITEM_TYPE" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:43:07 PM [vite] hmr update /src/pages/account/voted/index.tsx, /src/pages/gossiping/ranking-list/index.tsx, /src/pages/gossiping/index.tsx, /src/pages/account/commented/index.tsx, /src/pages/plaza/filter-list/index.tsx, /src/pages/account/created/index.tsx, /src/pages/account/messages/index.tsx, /src/pages/account/my-ideas/index.tsx, /src/pages/plaza/index.tsx, /src/pages/account/my-gossiping/index.tsx, /src/pages/home/index.tsx, /src/pages/plaza/ranking-list/index.tsx, /src/pages/user/detail/index.tsx, /src/components/ip-hot/index.tsx
+2:43:31 PM [vite] hmr update /src/index.css
+Unable to resolve `@import "./variable"` from /Users/super_kai/Programing/CXPT 2/voice_community_fe/src
+2:43:31 PM [vite] Internal server error: [postcss] ENOENT: no such file or directory, open './variable'
+  Plugin: vite:css
+  File: /Users/super_kai/Programing/CXPT 2/voice_community_fe/src/index.css:undefined:NaN
+      at async open (node:internal/fs/promises:642:25)
+      at async Object.readFile (node:internal/fs/promises:1279:14)
+      at async Object.load (file:///Users/super_kai/Programing/CXPT%202/voice_community_fe/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:36834:25)
+      at async loadImportContent (file:///Users/super_kai/Programing/CXPT%202/voice_community_fe/node_modules/vite/dist/node/chunks/dep-C6EFp3uH.js:844:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///Users/super_kai/Programing/CXPT%202/voice_community_fe/node_modules/vite/dist/node/chunks/dep-C6EFp3uH.js:800:27)
+      at async parseStyles$1 (file:///Users/super_kai/Programing/CXPT%202/voice_community_fe/node_modules/vite/dist/node/chunks/dep-C6EFp3uH.js:708:5)
+      at async Object.Once (file:///Users/super_kai/Programing/CXPT%202/voice_community_fe/node_modules/vite/dist/node/chunks/dep-C6EFp3uH.js:965:22)
+      at async LazyResult.runAsync (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/postcss/lib/lazy-result.js:261:11)
+      at async compileCSS (file:///Users/super_kai/Programing/CXPT%202/voice_community_fe/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:36897:21)
+      at async TransformPluginContext.transform (file:///Users/super_kai/Programing/CXPT%202/voice_community_fe/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:36170:11)
+      at async PluginContainer.transform (file:///Users/super_kai/Programing/CXPT%202/voice_community_fe/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:49096:18)
+      at async loadAndTransform (file:///Users/super_kai/Programing/CXPT%202/voice_community_fe/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:51929:27)
+      at async viteTransformMiddleware (file:///Users/super_kai/Programing/CXPT%202/voice_community_fe/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:61881:24)
+2:43:38 PM [vite] hmr update /src/App.css
+Unable to resolve `@import "./variable"` from /Users/super_kai/Programing/CXPT 2/voice_community_fe/src
+2:43:38 PM [vite] Internal server error: [postcss] ENOENT: no such file or directory, open './variable'
+  Plugin: vite:css
+  File: /Users/super_kai/Programing/CXPT 2/voice_community_fe/src/App.css:undefined:NaN
+      at async open (node:internal/fs/promises:642:25)
+      at async Object.readFile (node:internal/fs/promises:1279:14)
+      at async Object.load (file:///Users/super_kai/Programing/CXPT%202/voice_community_fe/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:36834:25)
+      at async loadImportContent (file:///Users/super_kai/Programing/CXPT%202/voice_community_fe/node_modules/vite/dist/node/chunks/dep-C6EFp3uH.js:844:19)
+      at async Promise.all (index 0)
+      at async resolveImportId (file:///Users/super_kai/Programing/CXPT%202/voice_community_fe/node_modules/vite/dist/node/chunks/dep-C6EFp3uH.js:800:27)
+      at async parseStyles$1 (file:///Users/super_kai/Programing/CXPT%202/voice_community_fe/node_modules/vite/dist/node/chunks/dep-C6EFp3uH.js:708:5)
+      at async Object.Once (file:///Users/super_kai/Programing/CXPT%202/voice_community_fe/node_modules/vite/dist/node/chunks/dep-C6EFp3uH.js:965:22)
+      at async LazyResult.runAsync (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/postcss/lib/lazy-result.js:261:11)
+      at async compileCSS (file:///Users/super_kai/Programing/CXPT%202/voice_community_fe/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:36897:21)
+      at async TransformPluginContext.transform (file:///Users/super_kai/Programing/CXPT%202/voice_community_fe/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:36170:11)
+      at async PluginContainer.transform (file:///Users/super_kai/Programing/CXPT%202/voice_community_fe/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:49096:18)
+      at async loadAndTransform (file:///Users/super_kai/Programing/CXPT%202/voice_community_fe/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:51929:27)
+      at async viteTransformMiddleware (file:///Users/super_kai/Programing/CXPT%202/voice_community_fe/node_modules/vite/dist/node/chunks/dep-CB_7IfJ-.js:61881:24)
+Unable to resolve `@import "./variable"` from /Users/super_kai/Programing/CXPT 2/voice_community_fe/src
+Unable to resolve `@import "./variable"` from /Users/super_kai/Programing/CXPT 2/voice_community_fe/src
+2:43:39 PM [vite] Pre-transform error: [postcss] ENOENT: no such file or directory, open './variable'
+2:43:39 PM [vite] Pre-transform error: [postcss] ENOENT: no such file or directory, open './variable'
+2:44:32 PM [vite] hmr update /src/index.css
+2:44:34 PM [vite] hmr update /src/App.css
+2:45:01 PM [vite] hmr update /src/App.css
+2:45:03 PM [vite] hmr update /src/App.css
+2:45:22 PM [vite] hmr update /src/components/ip-header/index.tsx
+2:45:35 PM [vite] hmr update /src/pages/home/index.tsx
+2:46:03 PM [vite] hmr update /src/pages/home/index.tsx
+2:46:20 PM [vite] hmr update /src/pages/plaza/index.tsx
+2:46:34 PM [vite] hmr update /src/components/ip-list/index.tsx
+2:46:36 PM [vite] hmr update /src/components/ip-list/index.tsx
+2:46:39 PM [vite] hmr update /src/components/ip-list/index.tsx
+2:46:43 PM [vite] hmr update /src/components/ip-list/index.tsx
+2:46:46 PM [vite] hmr update /src/components/ip-post/index.tsx
+2:46:49 PM [vite] hmr update /src/components/ip-post/index.tsx
+2:46:58 PM [vite] hmr update /src/components/ip-post/index.tsx
+2:47:10 PM [vite] hmr update /src/components/nav-bar/index.tsx
+2:47:11 PM [vite] hmr update /src/components/nav-bar/index.tsx
+2:47:12 PM [vite] hmr update /src/components/nav-bar/index.tsx
+2:47:24 PM [vite] hmr update /src/pages/account/index.tsx
+2:47:33 PM [vite] hmr update /src/pages/account/index.tsx
+2:47:39 PM [vite] hmr update /src/pages/account/index.tsx
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+2:47:56 PM [vite] hmr update /src/pages/gossiping/index.tsx
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+2:48:53 PM [vite] hmr update /src/index.css
+2:48:53 PM [vite] hmr update /src/components/ip-header/index.tsx
+2:48:53 PM [vite] hmr update /src/App.css
+2:48:53 PM [vite] hmr update /src/pages/home/index.tsx
+2:48:53 PM [vite] hmr update /src/components/ip-post/index.tsx
+2:48:53 PM [vite] hmr update /src/components/ip-list/index.tsx
+2:48:53 PM [vite] hmr update /src/pages/plaza/index.tsx
+2:48:53 PM [vite] hmr update /src/components/nav-bar/index.tsx
+2:48:53 PM [vite] hmr update /src/components/nav-bar/index.tsx
+2:48:53 PM [vite] hmr update /src/pages/account/index.tsx
+2:48:53 PM [vite] hmr update /src/pages/gossiping/index.tsx
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+2:48:53 PM [vite] hmr invalidate /src/components/ip-list/index.tsx Could not Fast Refresh ("ITEM_TYPE" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:48:53 PM [vite] hmr update /src/pages/account/voted/index.tsx, /src/pages/gossiping/ranking-list/index.tsx, /src/pages/gossiping/index.tsx, /src/pages/account/commented/index.tsx, /src/pages/plaza/filter-list/index.tsx, /src/pages/account/created/index.tsx, /src/pages/account/messages/index.tsx, /src/pages/account/my-ideas/index.tsx, /src/pages/plaza/index.tsx, /src/pages/account/my-gossiping/index.tsx, /src/pages/home/index.tsx, /src/pages/plaza/ranking-list/index.tsx, /src/pages/user/detail/index.tsx, /src/components/ip-hot/index.tsx
+2:48:53 PM [vite] hmr invalidate /src/pages/plaza/index.tsx Could not Fast Refresh ("filterOptions" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:48:53 PM [vite] hmr update /src/App.tsx, /src/pages/plaza/filter-list/index.tsx
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+2:49:10 PM [vite] hmr update /src/App.css
+2:49:10 PM [vite] hmr update /src/index.css
+2:49:10 PM [vite] hmr update /src/components/ip-header/index.tsx
+2:49:10 PM [vite] hmr update /src/pages/home/index.tsx
+2:49:10 PM [vite] hmr update /src/pages/plaza/index.tsx
+2:49:10 PM [vite] hmr update /src/components/ip-post/index.tsx
+2:49:10 PM [vite] hmr update /src/components/ip-list/index.tsx
+2:49:10 PM [vite] hmr update /src/components/nav-bar/index.tsx
+2:49:10 PM [vite] hmr update /src/pages/gossiping/index.tsx
+2:49:10 PM [vite] hmr update /src/components/nav-bar/index.tsx
+2:49:10 PM [vite] hmr update /src/pages/account/index.tsx
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+2:49:10 PM [vite] hmr invalidate /src/components/ip-list/index.tsx Could not Fast Refresh ("ITEM_TYPE" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:49:10 PM [vite] hmr update /src/pages/account/voted/index.tsx, /src/pages/gossiping/ranking-list/index.tsx, /src/pages/gossiping/index.tsx, /src/pages/account/commented/index.tsx, /src/pages/plaza/filter-list/index.tsx, /src/pages/account/created/index.tsx, /src/pages/account/messages/index.tsx, /src/pages/account/my-ideas/index.tsx, /src/pages/plaza/index.tsx, /src/pages/account/my-gossiping/index.tsx, /src/pages/home/index.tsx, /src/pages/plaza/ranking-list/index.tsx, /src/pages/user/detail/index.tsx, /src/components/ip-hot/index.tsx
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+2:49:10 PM [vite] hmr invalidate /src/pages/plaza/index.tsx Could not Fast Refresh ("filterOptions" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:49:10 PM [vite] hmr update /src/App.tsx, /src/pages/plaza/filter-list/index.tsx
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+2:58:04 PM [vite] hmr update /src/pages/account/index.tsx
+2:58:16 PM [vite] hmr update /src/pages/account/index.tsx
+3:13:41 PM [vite] hmr update /src/pages/account/index.tsx
+3:13:42 PM [vite] hmr update /src/pages/account/index.tsx
+3:13:42 PM [vite] hmr update /src/pages/account/index.tsx
+3:13:48 PM [vite] hmr update /src/pages/account/index.tsx
+3:13:51 PM [vite] hmr update /src/pages/account/index.tsx
+3:13:56 PM [vite] hmr update /src/pages/account/index.tsx
+3:14:04 PM [vite] hmr update /src/pages/account/index.tsx
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+3:14:06 PM [vite] hmr update /src/pages/account/index.tsx
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+3:14:06 PM [vite] Pre-transform error: [sass] Undefined variable.
+    ╷
+216 │       color: v.$text-color-dark;
+    │              ^^^^^^^^^^^^^^^^^^
+    ╵
+  src/pages/account/styles.module.scss 216:14  root stylesheet
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+3:14:06 PM [vite] Internal server error: [sass] Undefined variable.
+    ╷
+216 │       color: v.$text-color-dark;
+    │              ^^^^^^^^^^^^^^^^^^
+    ╵
+  src/pages/account/styles.module.scss 216:14  root stylesheet
+  Plugin: vite:css
+  File: /Users/super_kai/Programing/CXPT 2/voice_community_fe/src/pages/account/styles.module.scss:216:14
+  Error: Undefined variable.
+      ╷
+  216 │       color: v.$text-color-dark;
+      │              ^^^^^^^^^^^^^^^^^^
+      ╵
+    src/pages/account/styles.module.scss 216:14  root stylesheet
+      at Object.wrapException (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:2305:43)
+      at /Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:88755:23
+      at _wrapJsFunctionForAsync_closure.$protected (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:5020:15)
+      at _wrapJsFunctionForAsync_closure.call$2 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:38007:12)
+      at Object._asyncStartSync (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:4984:20)
+      at _EvaluateVisitor2.visitVariableExpression$body$_EvaluateVisitor0 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:88761:16)
+      at _EvaluateVisitor2.visitVariableExpression$1 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:88735:19)
+      at VariableExpression0.accept$1$1 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:123798:22)
+      at VariableExpression0.accept$1 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:123801:19)
+      at /Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:86833:41
+      at _wrapJsFunctionForAsync_closure.$protected (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:5020:15)
+      at _wrapJsFunctionForAsync_closure.call$2 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:38007:12)
+      at _awaitOnObject_closure.call$1 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:37995:32)
+      at Object._rootRunUnary (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:5423:18)
+      at StaticClosure.<anonymous> (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:124121:16)
+      at _CustomZone.runUnary$2$2 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:39456:39)
+      at _Future__propagateToListeners_handleValueCallback.call$0 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:38521:51)
+      at Object._Future__propagateToListeners (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:5215:93)
+      at _Future._completeWithValue$1 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:38385:9)
+      at _AsyncAwaitCompleter.complete$1 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:37982:14)
+      at Object._asyncReturn (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:4992:17)
+      at /Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:90834:24
+      at _wrapJsFunctionForAsync_closure.$protected (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:5020:15)
+      at _wrapJsFunctionForAsync_closure.call$2 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:38007:12)
+      at _awaitOnObject_closure.call$1 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:37995:32)
+      at Object._rootRunUnary (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:5423:18)
+      at StaticClosure.<anonymous> (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:124121:16)
+      at _CustomZone.runUnary$2$2 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:39456:39)
+      at _Future__propagateToListeners_handleValueCallback.call$0 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:38521:51)
+      at Object._Future__propagateToListeners (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:5215:93)
+      at _Future._completeWithValue$1 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:38385:9)
+      at _AsyncAwaitCompleter.complete$1 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:37982:14)
+      at Object._asyncReturn (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:4992:17)
+      at /Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:90866:24
+      at _wrapJsFunctionForAsync_closure.$protected (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:5020:15)
+      at _wrapJsFunctionForAsync_closure.call$2 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:38007:12)
+      at _awaitOnObject_closure.call$1 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:37995:32)
+      at Object._rootRunUnary (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:5423:18)
+      at StaticClosure.<anonymous> (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:124121:16)
+      at _CustomZone.runUnary$2$2 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:39456:39)
+      at _Future__propagateToListeners_handleValueCallback.call$0 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:38521:51)
+      at Object._Future__propagateToListeners (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:5215:93)
+      at _Future._completeWithValue$1 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:38385:9)
+      at _Future__asyncCompleteWithValue_closure.call$0 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:38463:18)
+      at Object._rootRun (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:5413:16)
+      at StaticClosure.<anonymous> (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:124117:16)
+      at _CustomZone.run$1$1 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:39451:39)
+      at _CustomZone_bindCallback_closure.call$0 (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:39550:25)
+      at Object._microtaskLoop (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:5273:24)
+      at StaticClosure._startMicrotaskLoop (/Users/super_kai/Programing/CXPT 2/voice_community_fe/node_modules/sass/sass.dart.js:5279:11)
+3:14:15 PM [vite] hmr update /src/pages/account/index.tsx
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+3:14:15 PM [vite] hmr update /src/pages/account/index.tsx
+3:17:28 PM [vite] hmr update /src/pages/account/index.tsx
+3:17:59 PM [vite] hmr update /src/pages/account/index.tsx
+3:18:05 PM [vite] hmr update /src/pages/account/index.tsx
+3:21:50 PM [vite] hmr update /src/pages/account/index.tsx
+3:22:08 PM [vite] page reload src/pages/home/homeSlice.ts
+3:22:10 PM [vite] page reload src/pages/home/homeSlice.ts
+3:22:12 PM [vite] page reload src/pages/home/homeSlice.ts
+3:22:21 PM [vite] page reload src/pages/home/homeSlice.ts
+3:22:27 PM [vite] hmr update /src/pages/home/index.tsx
+3:22:30 PM [vite] hmr update /src/pages/home/index.tsx
+3:22:36 PM [vite] hmr update /src/pages/home/index.tsx
+3:22:47 PM [vite] hmr update /src/pages/home/index.tsx
+3:22:54 PM [vite] hmr update /src/pages/home/index.tsx
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+3:23:15 PM [vite] hmr update /src/pages/account/index.tsx
+3:23:31 PM [vite] hmr update /src/pages/home/index.tsx
+3:23:54 PM [vite] hmr update /src/pages/account/index.tsx
+3:23:54 PM [vite] hmr update /src/pages/home/index.tsx
+3:23:57 PM [vite] hmr update /src/pages/account/index.tsx
+3:23:57 PM [vite] hmr update /src/pages/home/index.tsx
+3:24:21 PM [vite] hmr update /src/pages/plaza/detail/index.tsx
+3:24:23 PM [vite] hmr update /src/pages/gossiping/detail/index.tsx
+3:24:28 PM [vite] hmr update /src/components/ip-comment/index.tsx
+3:24:39 PM [vite] hmr update /src/pages/gossiping/detail/index.tsx
+3:24:39 PM [vite] hmr update /src/pages/plaza/detail/index.tsx
+3:24:39 PM [vite] hmr update /src/components/ip-comment/index.tsx
+5:21:48 PM [vite] http proxy error: /comment/add
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:55:59 PM [vite] http proxy error: /comment/getAllCommentByVoiceId?pageNum=1&pageSize=10&voiceId=73&orderBy=update_time
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:55:59 PM [vite] http proxy error: /voice/getVoiceById?id=73
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:12 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=1&pageSize=4&type=IDEA&sortBy=update_time&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:12 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=1&pageSize=10&sortBy=update_time&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:12 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=0&pageSize=10&type=GOSSIPING&sortBy=voted&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:12 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=0&pageSize=10&type=IDEA&sortBy=voted&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:12 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=0&pageSize=10&type=IDEA&sortBy=voted&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:12 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=0&pageSize=10&type=IDEA&sortBy=commented&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:12 PM [vite] http proxy error: /voice/getUnreadVoicesByAtUserId?pageNum=1&pageSize=1&atUserId=1&sortBy=voted&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:18 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=1&pageSize=3&type=GOSSIPING&sortBy=voted&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:18 PM [vite] http proxy error: /user/getLeaders
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:18 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=0&pageSize=20&type=GOSSIPING&sortBy=update_time&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:18 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=1&pageSize=3&type=GOSSIPING&sortBy=commented&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:18 PM [vite] http proxy error: /user/getAllUsers
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:18 PM [vite] http proxy error: /medal/my?userId=1
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:18 PM [vite] http proxy error: /medal/list
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:19 PM [vite] http proxy error: /taskboard/list?pageNum=1&pageSize=20
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:20 PM [vite] http proxy error: /medal/my?userId=1
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:20 PM [vite] http proxy error: /user/getUserById?id=1
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:21 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=1&pageSize=4&type=IDEA&sortBy=update_time&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:21 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=1&pageSize=10&sortBy=update_time&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:21 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=0&pageSize=10&type=IDEA&sortBy=voted&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:21 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=0&pageSize=10&type=GOSSIPING&sortBy=voted&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:21 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=0&pageSize=10&type=IDEA&sortBy=voted&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:21 PM [vite] http proxy error: /voice/getVoicesByParam?pageNum=0&pageSize=10&type=IDEA&sortBy=commented&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+5:59:21 PM [vite] http proxy error: /voice/getUnreadVoicesByAtUserId?pageNum=1&pageSize=1&atUserId=1&sortBy=voted&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)

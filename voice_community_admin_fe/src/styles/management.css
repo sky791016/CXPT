@@ -1,0 +1,179 @@
+.management-container {
+  padding: 24px;
+  background: transparent;
+  min-height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+.management-container * {
+  box-sizing: border-box;
+}
+
+.management-container,
+.management-container * {
+  writing-mode: horizontal-tb !important;
+  text-orientation: mixed !important;
+}
+
+.management-header {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+.management-header .ant-card-body {
+  width: 100%;
+  display: block;
+}
+
+.management-header .ant-card-body > * {
+  display: block;
+  width: 100%;
+}
+
+.management-header .header-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+  display: inline-block;
+  width: auto;
+  white-space: normal;
+  writing-mode: horizontal-tb;
+  text-orientation: mixed;
+  line-height: 1.5;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-align: left;
+}
+
+.management-header .header-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.management-header .header-actions .search-bar {
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+}
+
+.management-header .header-actions .action-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.management-content {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  overflow-x: auto;
+}
+
+.management-content .ant-card-body {
+  width: 100%;
+  display: block;
+}
+
+.management-content .ant-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.management-content .ant-table {
+  width: 100%;
+  table-layout: auto;
+}
+
+.management-content .ant-table-thead > tr > th,
+.management-content .ant-table-tbody > tr > td {
+  white-space: nowrap;
+  text-align: left;
+  writing-mode: horizontal-tb;
+  text-orientation: mixed;
+}
+
+.management-content .ant-table-thead > tr > th {
+  background: #fafafa;
+  font-weight: 600;
+  color: #1a1a1a;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+.management-content .ant-table-tbody > tr {
+  transition: all 0.3s;
+}
+
+.management-content .ant-table-tbody > tr:hover {
+  background: #f5f7fa;
+}
+
+.management-content .ant-table-tbody > tr td {
+  padding: 16px;
+}
+
+.management-content .action-buttons .ant-btn-link {
+  padding: 4px 8px;
+  height: auto;
+  font-size: 14px;
+}
+
+.management-content .action-buttons .ant-btn-link:hover {
+  background: #f0f0f0;
+  border-radius: 4px;
+}
+
+.management-modal .ant-modal-header {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 20px 24px;
+}
+
+.management-modal .ant-modal-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.management-modal .ant-modal-body {
+  padding: 24px;
+}
+
+.management-modal .ant-form-item-label > label {
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+@media (max-width: 768px) {
+  .management-container {
+    padding: 16px;
+  }
+
+  .management-header .header-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .management-header .header-actions .search-bar {
+    max-width: 100%;
+    min-width: 100%;
+  }
+  
+  .management-header .header-actions .action-buttons {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}

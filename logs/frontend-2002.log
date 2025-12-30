@@ -1,0 +1,196 @@
+
+> voice_community_web@0.0.0 dev
+> vite
+
+2:26:02 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+
+  VITE v7.3.0  ready in 2824 ms
+
+  ➜  Local:   http://localhost:2002/
+  ➜  Network: use --host to expose
+2:51:52 PM [vite] (client) hmr update /src/pages/Home.tsx
+2:51:52 PM [vite] Internal server error: Failed to resolve import "./Home.css" from "src/pages/Home.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/super_kai/Programing/CXPT 2/voice_community_web/src/pages/Home.tsx:4:7
+  4  |  import { useNavigate } from "react-router-dom";
+  5  |  import { getVoicesByParam } from "../api";
+  6  |  import "./Home.css";
+     |          ^
+  7  |  export default function Home() {
+  8  |    _s();
+      at TransformPluginContext._formatLog (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:28998:43)
+      at TransformPluginContext.error (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:28995:14)
+      at normalizeUrl (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:27118:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:27176:32
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:27144:4)
+      at async EnvironmentPluginContainer.transform (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:28796:14)
+      at async loadAndTransform (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:22669:26)
+      at async viteTransformMiddleware (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:24541:20)
+2:51:52 PM [vite] (client) ✨ new dependencies optimized: axios
+2:51:52 PM [vite] (client) ✨ optimized dependencies changed. reloading
+2:51:53 PM [vite] (client) Pre-transform error: Failed to resolve import "./Home.css" from "src/pages/Home.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/super_kai/Programing/CXPT 2/voice_community_web/src/pages/Home.tsx:4:7
+  4  |  import { useNavigate } from "react-router-dom";
+  5  |  import { getVoicesByParam } from "../api";
+  6  |  import "./Home.css";
+     |          ^
+  7  |  export default function Home() {
+  8  |    _s();
+2:51:53 PM [vite] Internal server error: Failed to resolve import "./Home.css" from "src/pages/Home.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/super_kai/Programing/CXPT 2/voice_community_web/src/pages/Home.tsx:4:7
+  4  |  import { useNavigate } from "react-router-dom";
+  5  |  import { getVoicesByParam } from "../api";
+  6  |  import "./Home.css";
+     |          ^
+  7  |  export default function Home() {
+  8  |    _s();
+      at TransformPluginContext._formatLog (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:28998:43)
+      at TransformPluginContext.error (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:28995:14)
+      at normalizeUrl (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:27118:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:27176:32
+      at async Promise.all (index 4)
+      at async TransformPluginContext.transform (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:27144:4)
+      at async EnvironmentPluginContainer.transform (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:28796:14)
+      at async loadAndTransform (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:22669:26)
+      at async viteTransformMiddleware (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:24541:20)
+2:52:41 PM [vite] (client) hmr update /src/App.tsx
+2:53:28 PM [vite] (client) hmr update /src/App.tsx
+2:57:04 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/pages/Plaza.tsx, /src/pages/Search.tsx, /src/pages/Gossiping.tsx
+2:57:07 PM [vite] (client) hmr update /src/App.tsx
+2:57:09 PM [vite] (client) hmr update /src/pages/Home.tsx
+2:57:27 PM [vite] (client) hmr update /src/pages/Account.tsx
+2:57:27 PM [vite] (client) hmr update /src/pages/Account.css
+2:57:27 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/pages/Plaza.tsx, /src/pages/Search.tsx, /src/pages/Gossiping.tsx, /src/pages/Account.tsx
+2:57:27 PM [vite] (client) hmr update /src/pages/Home.tsx
+2:57:27 PM [vite] (client) hmr update /src/App.tsx
+2:57:33 PM [vite] (client) hmr update /src/pages/Account.tsx
+2:57:33 PM [vite] (client) hmr update /src/pages/Account.css
+2:57:33 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/pages/Plaza.tsx, /src/pages/Search.tsx, /src/pages/Gossiping.tsx, /src/pages/Account.tsx
+2:57:33 PM [vite] (client) hmr update /src/App.tsx
+2:57:33 PM [vite] (client) hmr update /src/pages/Home.tsx
+2:57:33 PM [vite] (client) hmr update /src/pages/Account.tsx
+2:57:33 PM [vite] (client) hmr update /src/pages/Account.css
+2:57:33 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/pages/Plaza.tsx, /src/pages/Search.tsx, /src/pages/Gossiping.tsx, /src/pages/Account.tsx
+2:57:33 PM [vite] (client) hmr update /src/App.tsx
+2:57:33 PM [vite] (client) hmr update /src/pages/Home.tsx
+2:57:33 PM [vite] (client) hmr update /src/pages/Account.css
+2:57:33 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/pages/Plaza.tsx, /src/pages/Search.tsx, /src/pages/Gossiping.tsx, /src/pages/Account.tsx
+2:57:33 PM [vite] (client) hmr update /src/pages/Account.tsx
+2:57:33 PM [vite] (client) hmr update /src/App.tsx
+2:57:33 PM [vite] (client) hmr update /src/pages/Home.tsx
+3:14:15 PM [vite] (client) hmr update /src/pages/Home.tsx
+3:14:15 PM [vite] (client) hmr update /src/pages/Plaza.tsx
+3:14:15 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/pages/Plaza.tsx, /src/pages/Search.tsx, /src/pages/Gossiping.tsx, /src/pages/Account.tsx
+3:14:15 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/pages/Plaza.tsx, /src/pages/Search.tsx, /src/pages/Gossiping.tsx, /src/pages/Account.tsx
+3:14:15 PM [vite] (client) hmr update /src/pages/Home.css
+3:14:15 PM [vite] (client) Pre-transform error: Failed to load url /src/api/index.ts (resolved id: /Users/super_kai/Programing/CXPT 2/voice_community_web/src/api/index.ts) in /Users/super_kai/Programing/CXPT 2/voice_community_web/src/pages/Plaza.tsx. Does the file exist?
+3:14:15 PM [vite] (client) Pre-transform error: Failed to load url /src/api/index.ts (resolved id: /Users/super_kai/Programing/CXPT 2/voice_community_web/src/api/index.ts) in /Users/super_kai/Programing/CXPT 2/voice_community_web/src/pages/Plaza.tsx. Does the file exist?
+3:14:15 PM [vite] (client) Pre-transform error: Failed to load url /src/api/index.ts (resolved id: /Users/super_kai/Programing/CXPT 2/voice_community_web/src/api/index.ts) in /Users/super_kai/Programing/CXPT 2/voice_community_web/src/pages/Plaza.tsx. Does the file exist?
+3:14:15 PM [vite] (client) hmr update /src/App.tsx
+3:14:15 PM [vite] (client) hmr update /src/pages/Plaza.css
+3:14:15 PM [vite] (client) hmr update /src/pages/Gossiping.tsx
+3:14:15 PM [vite] (client) hmr update /src/pages/Gossiping.css
+3:14:15 PM [vite] (client) Pre-transform error: Failed to load url /src/pages/Gossiping.tsx (resolved id: /Users/super_kai/Programing/CXPT 2/voice_community_web/src/pages/Gossiping.tsx) in /Users/super_kai/Programing/CXPT 2/voice_community_web/src/App.tsx. Does the file exist?
+3:14:15 PM [vite] (client) Pre-transform error: Failed to load url /src/pages/Plaza.tsx (resolved id: /Users/super_kai/Programing/CXPT 2/voice_community_web/src/pages/Plaza.tsx) in /Users/super_kai/Programing/CXPT 2/voice_community_web/src/App.tsx. Does the file exist?
+3:14:15 PM [vite] (client) hmr update /src/pages/Taskboard.css
+3:14:15 PM [vite] (client) hmr update /src/pages/Gossiping.css
+3:14:15 PM [vite] (client) hmr update /src/pages/Taskboard.tsx
+3:14:15 PM [vite] (client) hmr update /src/pages/Taskboard.css
+3:14:15 PM [vite] (client) hmr update /src/pages/Medal.tsx
+3:14:15 PM [vite] (client) hmr update /src/pages/Medal.css
+3:14:15 PM [vite] (client) hmr update /src/pages/Search.tsx
+3:14:15 PM [vite] (client) hmr update /src/pages/Search.css
+3:14:15 PM [vite] (client) hmr update /src/App.tsx
+3:14:15 PM [vite] (client) hmr update /src/App.tsx
+3:14:15 PM [vite] (client) hmr update /src/pages/Account.tsx
+3:14:15 PM [vite] (client) hmr update /src/pages/Account.css
+3:15:34 PM [vite] (client) page reload src/api/index.ts
+3:16:08 PM [vite] (client) hmr update /src/pages/Home.tsx
+3:16:08 PM [vite] Internal server error: Failed to resolve import "./Home.css" from "src/pages/Home.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/super_kai/Programing/CXPT 2/voice_community_web/src/pages/Home.tsx:14:7
+  14 |  } from "@ant-design/icons";
+  15 |  import { useNavigate } from "react-router-dom";
+  16 |  import "./Home.css";
+     |          ^
+  17 |  const { Title, Text } = Typography;
+  18 |  const { Search } = Input;
+      at TransformPluginContext._formatLog (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:28998:43)
+      at TransformPluginContext.error (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:28995:14)
+      at normalizeUrl (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:27118:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:27176:32
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:27144:4)
+      at async EnvironmentPluginContainer.transform (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:28796:14)
+      at async loadAndTransform (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:22669:26)
+      at async viteTransformMiddleware (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:24541:20)
+3:16:09 PM [vite] (client) ✨ new dependencies optimized: antd, @ant-design/icons
+3:16:09 PM [vite] (client) ✨ optimized dependencies changed. reloading
+3:16:10 PM [vite] (client) Pre-transform error: Failed to resolve import "./Home.css" from "src/pages/Home.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/super_kai/Programing/CXPT 2/voice_community_web/src/pages/Home.tsx:14:7
+  14 |  } from "@ant-design/icons";
+  15 |  import { useNavigate } from "react-router-dom";
+  16 |  import "./Home.css";
+     |          ^
+  17 |  const { Title, Text } = Typography;
+  18 |  const { Search } = Input;
+3:16:10 PM [vite] Internal server error: Failed to resolve import "./Home.css" from "src/pages/Home.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /Users/super_kai/Programing/CXPT 2/voice_community_web/src/pages/Home.tsx:14:7
+  14 |  } from "@ant-design/icons";
+  15 |  import { useNavigate } from "react-router-dom";
+  16 |  import "./Home.css";
+     |          ^
+  17 |  const { Title, Text } = Typography;
+  18 |  const { Search } = Input;
+      at TransformPluginContext._formatLog (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:28998:43)
+      at TransformPluginContext.error (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:28995:14)
+      at normalizeUrl (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:27118:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+      at async file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:27176:32
+      at async Promise.all (index 5)
+      at async TransformPluginContext.transform (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:27144:4)
+      at async EnvironmentPluginContainer.transform (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:28796:14)
+      at async loadAndTransform (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:22669:26)
+      at async viteTransformMiddleware (file:///Users/super_kai/Programing/CXPT%202/voice_community_web/node_modules/vite/dist/node/chunks/config.js:24541:20)
+3:17:06 PM [vite] (client) hmr update /src/pages/Home.css, /src/App.tsx
+3:17:11 PM [vite] (client) hmr update /src/index.css
+3:19:04 PM [vite] (client) hmr update /src/pages/Home.tsx
+3:19:17 PM [vite] (client) hmr update /src/pages/Home.tsx
+3:19:21 PM [vite] (client) hmr update /src/pages/Home.tsx
+3:20:02 PM [vite] (client) hmr update /src/pages/Home.tsx
+3:20:04 PM [vite] (client) hmr update /src/pages/Home.css
+3:20:13 PM [vite] (client) hmr update /src/pages/Home.css
+3:20:49 PM [vite] (client) hmr update /src/pages/Home.tsx
+3:21:13 PM [vite] (client) hmr update /src/App.tsx
+3:21:26 PM [vite] (client) hmr update /src/pages/Home.tsx
+3:21:32 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/pages/Detail.tsx
+3:21:32 PM [vite] (client) hmr update /src/pages/Detail.tsx
+3:21:32 PM [vite] (client) hmr update /src/pages/Detail.css
+3:21:32 PM [vite] (client) hmr update /src/App.tsx
+3:21:32 PM [vite] (client) hmr update /src/pages/Home.tsx
+3:21:50 PM [vite] (client) hmr update /src/App.tsx
+3:21:50 PM [vite] (client) hmr update /src/pages/Home.tsx
+3:21:50 PM [vite] (client) hmr update /src/pages/Home.tsx, /src/pages/Detail.tsx
+3:21:50 PM [vite] (client) hmr update /src/index.css
+3:21:50 PM [vite] (client) hmr update /src/pages/Home.css
+3:21:50 PM [vite] (client) hmr update /src/pages/Detail.tsx
+3:21:50 PM [vite] (client) hmr update /src/pages/Detail.css
+3:25:09 PM [vite] (client) hmr update /src/pages/Home.tsx
+3:25:11 PM [vite] (client) hmr update /src/pages/Home.tsx
+3:25:13 PM [vite] (client) hmr update /src/pages/Home.css
+6:01:49 PM [vite] http proxy error: /api/voice/getVoicesByParam?pageNum=0&pageSize=10&type=IDEA&sortBy=voted&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)
+6:01:49 PM [vite] http proxy error: /api/voice/getVoicesByParam?pageNum=0&pageSize=10&type=IDEA&sortBy=voted&sortType=desc
+AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1134:18)
+    at afterConnectMultiple (node:net:1715:7)

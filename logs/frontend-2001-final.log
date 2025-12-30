@@ -1,0 +1,13 @@
+
+> voice_community_admin_fe@0.0.1 dev
+> vite --port 3000
+
+Port 3000 is in use, trying another one...
+Port 3001 is in use, trying another one...
+
+  VITE v5.4.21  ready in 299 ms
+
+  ➜  Local:   http://localhost:3002/
+  ➜  Network: use --host to expose
+1:22:41 PM [vite] vite.config.ts changed, restarting server...
+1:22:41 PM [vite] server restarted.

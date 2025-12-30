@@ -1,0 +1,125 @@
+.detail-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+  padding: 24px;
+}
+
+.detail-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.detail-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.detail-back-btn {
+  margin-bottom: 16px;
+}
+
+.detail-main-card {
+  margin-bottom: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.detail-header {
+  margin-bottom: 16px;
+}
+
+.detail-author {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.detail-meta {
+  font-size: 14px;
+}
+
+.detail-title {
+  margin-bottom: 16px !important;
+  color: #1a1a1a;
+  line-height: 1.4;
+}
+
+.detail-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #4a5568;
+  white-space: pre-wrap;
+  word-break: break-word;
+  margin-bottom: 24px;
+}
+
+.detail-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.detail-image-item {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.detail-image-item:hover {
+  transform: scale(1.05);
+}
+
+.detail-actions {
+  padding-top: 16px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.detail-comments-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.detail-comment-input {
+  margin-bottom: 16px;
+}
+
+.detail-comment-item {
+  padding: 16px 0 !important;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.detail-comment-item:last-child {
+  border-bottom: none;
+}
+
+.comment-author {
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .detail-container {
+    padding: 16px;
+  }
+
+  .detail-title {
+    font-size: 24px !important;
+  }
+
+  .detail-text {
+    font-size: 14px;
+  }
+
+  .detail-image-item {
+    max-width: 100%;
+  }
+}
+

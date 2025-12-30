@@ -1,8 +1,11 @@
 import { useState, useEffect } from 'react';
-import { Table, Button, Space, Modal, Form, Input, Select, message, Popconfirm } from 'antd';
-import { PlusOutlined, EditOutlined, DeleteOutlined } from '@ant-design/icons';
+import { Table, Button, Space, Modal, Form, Input, Select, message, Popconfirm, Input as AntInput, Card, Tag } from 'antd';
+import { PlusOutlined, EditOutlined, DeleteOutlined, SearchOutlined, ReloadOutlined } from '@ant-design/icons';
 import { getVoices, createVoice, updateVoice, deleteVoice } from '../api/voiceApi';
 import type { Voice } from '../types/voice';
+import '../styles/management.css';
+
+const { Search } = AntInput;
 
 export default function VoiceManagement() {
   const [voices, setVoices] = useState<Voice[]>([]);
@@ -11,6 +14,7 @@ export default function VoiceManagement() {
   const [editingVoice, setEditingVoice] = useState<Voice | null>(null);
   const [form] = Form.useForm();
   const [pagination, setPagination] = useState({ current: 1, pageSize: 10, total: 0 });
+  const [searchKeyword, setSearchKeyword] = useState('');
 
   useEffect(() => {
     loadVoices();
@@ -20,10 +24,16 @@ export default function VoiceManagement() {
     setLoading(true);
     try {
       const response = await getVoices(pagination.current, pagination.pageSize);
-      setVoices(response.data.list);
-      setPagination(prev => ({ ...prev, total: response.data.total }));
-    } catch (error) {
-      message.error('加载心声列表失败');
+      // 检查响应格式
+      const data = response?.data || response;
+      const list = data?.list || data?.dataList || [];
+      const total = data?.total || data?.totalCount || 0;
+      
+      setVoices(list);
+      setPagination(prev => ({ ...prev, total }));
+    } catch (error: any) {
+      console.error('加载心声列表失败:', error);
+      message.error(error?.response?.data?.message || '加载心声列表失败');
     } finally {
       setLoading(false);
     }
@@ -68,40 +78,99 @@ export default function VoiceManagement() {
     }
   };
 
+  const handleSearch = (value: string) => {
+    setSearchKeyword(value);
+    setPagination(prev => ({ ...prev, current: 1 }));
+    loadVoices();
+  };
+
   const columns = [
     {
       title: 'ID',
       dataIndex: 'id',
       key: 'id',
+      width: 80,
+      fixed: 'left' as const,
     },
     {
       title: '标题',
       dataIndex: 'title',
       key: 'title',
+      ellipsis: true,
+      width: 200,
+    },
+    {
+      title: '内容',
+      dataIndex: 'content',
+      key: 'content',
+      ellipsis: true,
+      width: 300,
+      render: (text: string) => text ? (text.length > 50 ? text.substring(0, 50) + '...' : text) : '-',
     },
     {
       title: '类型',
       dataIndex: 'type',
       key: 'type',
+      width: 120,
+      render: (type: string) => {
+        const typeMap: Record<string, { text: string; color: string }> = {
+          'IDEA': { text: '创意', color: 'blue' },
+          'GOSSIPING': { text: '吐槽', color: 'orange' },
+        };
+        const typeInfo = typeMap[type] || { text: type, color: 'default' };
+        return <Tag color={typeInfo.color}>{typeInfo.text}</Tag>;
+      },
     },
     {
       title: '状态',
       dataIndex: 'status',
       key: 'status',
+      width: 120,
+      render: (status: string) => {
+        const statusMap: Record<string, { text: string; color: string }> = {
+          'NORMAL': { text: '正常', color: 'green' },
+          'TO_PROJECT': { text: '转为项目', color: 'blue' },
+        };
+        const statusInfo = statusMap[status] || { text: status, color: 'default' };
+        return <Tag color={statusInfo.color}>{statusInfo.text}</Tag>;
+      },
+    },
+    {
+      title: '创建时间',
+      dataIndex: 'createTime',
+      key: 'createTime',
+      width: 180,
+      render: (time: string) => time ? new Date(time).toLocaleString('zh-CN') : '-',
     },
     {
       title: '操作',
       key: 'action',
+      width: 150,
+      fixed: 'right' as const,
       render: (_: any, record: Voice) => (
-        <Space>
-          <Button type="link" icon={<EditOutlined />} onClick={() => handleEdit(record)}>
+        <Space size="small">
+          <Button 
+            type="link" 
+            icon={<EditOutlined />} 
+            onClick={() => handleEdit(record)}
+            style={{ padding: 0 }}
+          >
             编辑
           </Button>
           <Popconfirm
             title="确定要删除这条心声吗？"
             onConfirm={() => handleDelete(record.id!)}
+            okText="确定"
+            cancelText="取消"
           >
-            <Button type="link" danger icon={<DeleteOutlined />}>删除</Button>
+            <Button 
+              type="link" 
+              danger 
+              icon={<DeleteOutlined />}
+              style={{ padding: 0 }}
+            >
+              删除
+            </Button>
           </Popconfirm>
         </Space>
       ),
@@ -109,44 +178,82 @@ export default function VoiceManagement() {
   ];
 
   return (
-    <div>
-      <div style={{ marginBottom: 16 }}>
-        <Button type="primary" icon={<PlusOutlined />} onClick={handleCreate}>
-          新建心声
-        </Button>
-      </div>
-      <Table
-        columns={columns}
-        dataSource={voices}
-        loading={loading}
-        rowKey="id"
-        pagination={{
-          ...pagination,
-          onChange: (page, pageSize) => setPagination(prev => ({ ...prev, current: page, pageSize })),
-        }}
-      />
+    <div className="management-container">
+      <Card className="management-header" styles={{ body: { padding: '24px' } }}>
+        <div className="header-title">心声管理</div>
+        <div className="header-actions">
+          <Search
+            placeholder="搜索标题或内容..."
+            allowClear
+            enterButton={<SearchOutlined />}
+            size="large"
+            className="search-bar"
+            onSearch={handleSearch}
+            onChange={(e) => !e.target.value && handleSearch('')}
+          />
+          <div className="action-buttons">
+            <Button 
+              icon={<ReloadOutlined />} 
+              onClick={loadVoices}
+              style={{ marginRight: 8 }}
+            >
+              刷新
+            </Button>
+            <Button 
+              type="primary" 
+              icon={<PlusOutlined />} 
+              onClick={handleCreate}
+              size="large"
+            >
+              新建心声
+            </Button>
+          </div>
+        </div>
+      </Card>
+
+      <Card className="management-content" styles={{ body: { padding: '24px' } }}>
+        <Table
+          columns={columns}
+          dataSource={voices}
+          loading={loading}
+          rowKey="id"
+          scroll={{ x: 'max-content' }}
+          pagination={{
+            ...pagination,
+            showSizeChanger: true,
+            showQuickJumper: true,
+            showTotal: (total) => `共 ${total} 条`,
+            pageSizeOptions: ['10', '20', '50', '100'],
+            onChange: (page, pageSize) => setPagination(prev => ({ ...prev, current: page, pageSize })),
+          }}
+        />
+      </Card>
+
       <Modal
         title={editingVoice ? '编辑心声' : '新建心声'}
         open={modalVisible}
         onOk={handleSubmit}
         onCancel={() => setModalVisible(false)}
         width={800}
+        className="management-modal"
+        okText="确定"
+        cancelText="取消"
       >
         <Form form={form} layout="vertical">
-          <Form.Item name="title" label="标题" rules={[{ required: true }]}>
-            <Input />
+          <Form.Item name="title" label="标题" rules={[{ required: true, message: '请输入标题' }]}>
+            <Input placeholder="请输入标题" size="large" />
           </Form.Item>
-          <Form.Item name="content" label="内容" rules={[{ required: true }]}>
-            <Input.TextArea rows={6} />
+          <Form.Item name="content" label="内容" rules={[{ required: true, message: '请输入内容' }]}>
+            <Input.TextArea rows={6} placeholder="请输入内容" />
           </Form.Item>
-          <Form.Item name="type" label="类型" rules={[{ required: true }]}>
-            <Select>
+          <Form.Item name="type" label="类型" rules={[{ required: true, message: '请选择类型' }]}>
+            <Select size="large" placeholder="请选择类型">
               <Select.Option value="IDEA">创意</Select.Option>
               <Select.Option value="GOSSIPING">员工声音</Select.Option>
             </Select>
           </Form.Item>
           <Form.Item name="status" label="状态">
-            <Select>
+            <Select size="large" placeholder="请选择状态">
               <Select.Option value="NORMAL">正常</Select.Option>
               <Select.Option value="TO_PROJECT">转为项目</Select.Option>
             </Select>
@@ -156,4 +263,3 @@ export default function VoiceManagement() {
     </div>
   );
 }
-
